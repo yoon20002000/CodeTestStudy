@@ -157,10 +157,12 @@
     <ClCompile Include="Babbling1\Babbling.cpp" />
     <ClCompile Include="CodeTest.cpp" />
     <ClCompile Include="NextValue\NextValue.cpp" />
+    <ClCompile Include="SumOfContinues\SumOfContinues.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Babbling1\Babbling.h" />
     <ClInclude Include="NextValue\NextValue.h" />
+    <ClInclude Include="SumOfContinues\SumOfContinues.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
