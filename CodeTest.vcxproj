@@ -156,12 +156,14 @@
   <ItemGroup>
     <ClCompile Include="Babbling1\Babbling.cpp" />
     <ClCompile Include="CodeTest.cpp" />
+    <ClCompile Include="CutString\CutString.cpp" />
     <ClCompile Include="NextValue\NextValue.cpp" />
     <ClCompile Include="ShiftString\ShiftString.cpp" />
     <ClCompile Include="SumOfContinues\SumOfContinues.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Babbling1\Babbling.h" />
+    <ClInclude Include="CutString\CutString.h" />
     <ClInclude Include="NextValue\NextValue.h" />
     <ClInclude Include="ShiftString\ShiftString.h" />
     <ClInclude Include="SumOfContinues\SumOfContinues.h" />

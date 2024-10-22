@@ -10,7 +10,7 @@ int ShiftString::solution(string& input, string& target)
     int answer = 0;
 
     char first = input[0];
-    int length = input.length();
+    size_t length = input.length();
     vector<int> findIndexs;
     findIndexs.reserve(length);
     
