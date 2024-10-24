@@ -158,6 +158,7 @@
     <ClCompile Include="CodeTest.cpp" />
     <ClCompile Include="CutString\CutString.cpp" />
     <ClCompile Include="NextValue\NextValue.cpp" />
+    <ClCompile Include="PCCE\DataAnalyze\DataAnalyze.cpp" />
     <ClCompile Include="PCCE\NeighborColor\NeighborColor.cpp" />
     <ClCompile Include="ShiftString\ShiftString.cpp" />
     <ClCompile Include="SumOfContinues\SumOfContinues.cpp" />
@@ -166,6 +167,7 @@
     <ClInclude Include="Babbling1\Babbling.h" />
     <ClInclude Include="CutString\CutString.h" />
     <ClInclude Include="NextValue\NextValue.h" />
+    <ClInclude Include="PCCE\DataAnalyze\DataAnalyze.h" />
     <ClInclude Include="PCCE\NeighborColor\NeighborColor.h" />
     <ClInclude Include="ShiftString\ShiftString.h" />
     <ClInclude Include="SumOfContinues\SumOfContinues.h" />
