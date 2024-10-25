@@ -157,6 +157,7 @@
     <ClCompile Include="Babbling1\Babbling.cpp" />
     <ClCompile Include="CodeTest.cpp" />
     <ClCompile Include="CutString\CutString.cpp" />
+    <ClCompile Include="LittleString\LittleString.cpp" />
     <ClCompile Include="NextValue\NextValue.cpp" />
     <ClCompile Include="PCCE\DataAnalyze\DataAnalyze.cpp" />
     <ClCompile Include="PCCE\NeighborColor\NeighborColor.cpp" />
@@ -166,6 +167,7 @@
   <ItemGroup>
     <ClInclude Include="Babbling1\Babbling.h" />
     <ClInclude Include="CutString\CutString.h" />
+    <ClInclude Include="LittleString\LittleString.h" />
     <ClInclude Include="NextValue\NextValue.h" />
     <ClInclude Include="PCCE\DataAnalyze\DataAnalyze.h" />
     <ClInclude Include="PCCE\NeighborColor\NeighborColor.h" />
