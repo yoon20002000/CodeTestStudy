@@ -11,7 +11,7 @@ int SearchOneBit::solution(unsigned int number)
 
 	while (number > 0)
 	{
-		count += number & 1;
+		count += number & 1U;
 		number = number >> 1;
 	}
 
