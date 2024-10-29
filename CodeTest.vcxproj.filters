@@ -51,6 +51,9 @@
     <ClCompile Include="SearchOneBit.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="binarySearch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Babbling1\Babbling.h">
@@ -84,6 +87,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="SearchOneBit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="binarySearch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
