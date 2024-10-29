@@ -48,6 +48,9 @@
     <ClCompile Include="ReverseLinkedNode.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="SearchOneBit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Babbling1\Babbling.h">
@@ -78,6 +81,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ReverseLinkedNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchOneBit.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -162,6 +162,7 @@
     <ClCompile Include="PCCE\DataAnalyze\DataAnalyze.cpp" />
     <ClCompile Include="PCCE\NeighborColor\NeighborColor.cpp" />
     <ClCompile Include="ReverseLinkedNode.cpp" />
+    <ClCompile Include="SearchOneBit.cpp" />
     <ClCompile Include="ShiftString\ShiftString.cpp" />
     <ClCompile Include="SumOfContinues\SumOfContinues.cpp" />
     <ClCompile Include="TestPractice\ReverseString.cpp" />
@@ -174,6 +175,7 @@
     <ClInclude Include="PCCE\DataAnalyze\DataAnalyze.h" />
     <ClInclude Include="PCCE\NeighborColor\NeighborColor.h" />
     <ClInclude Include="ReverseLinkedNode.h" />
+    <ClInclude Include="SearchOneBit.h" />
     <ClInclude Include="ShiftString\ShiftString.h" />
     <ClInclude Include="SumOfContinues\SumOfContinues.h" />
     <ClInclude Include="TestPractice\ReverseString.h" />
