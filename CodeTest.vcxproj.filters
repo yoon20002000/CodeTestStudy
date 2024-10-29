@@ -18,5 +18,67 @@
     <ClCompile Include="CodeTest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Babbling1\Babbling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CutString\CutString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LittleString\LittleString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NextValue\NextValue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PCCE\DataAnalyze\DataAnalyze.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PCCE\NeighborColor\NeighborColor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShiftString\ShiftString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SumOfContinues\SumOfContinues.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestPractice\ReverseString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverseLinkedNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Babbling1\Babbling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CutString\CutString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LittleString\LittleString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NextValue\NextValue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PCCE\DataAnalyze\DataAnalyze.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PCCE\NeighborColor\NeighborColor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShiftString\ShiftString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SumOfContinues\SumOfContinues.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestPractice\ReverseString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReverseLinkedNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
