@@ -163,6 +163,7 @@
     <ClCompile Include="PCCE\NeighborColor\NeighborColor.cpp" />
     <ClCompile Include="ShiftString\ShiftString.cpp" />
     <ClCompile Include="SumOfContinues\SumOfContinues.cpp" />
+    <ClCompile Include="TestPractice\ReverseString.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Babbling1\Babbling.h" />
@@ -173,6 +174,7 @@
     <ClInclude Include="PCCE\NeighborColor\NeighborColor.h" />
     <ClInclude Include="ShiftString\ShiftString.h" />
     <ClInclude Include="SumOfContinues\SumOfContinues.h" />
+    <ClInclude Include="TestPractice\ReverseString.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
