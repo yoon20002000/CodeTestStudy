@@ -237,6 +237,7 @@
       <SDLCheck>true</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
     </ClCompile>
+    <ClCompile Include="TestPractice\RawATOI.cpp" />
     <ClCompile Include="TestPractice\ReverseLinkedNode.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -397,6 +398,7 @@
     <ClInclude Include="ShiftString\ShiftString.h" />
     <ClInclude Include="SumOfContinues\SumOfContinues.h" />
     <ClInclude Include="TestPractice\binarySearch.h" />
+    <ClInclude Include="TestPractice\RawATOI.h" />
     <ClInclude Include="TestPractice\ReverseLinkedNode.h" />
     <ClInclude Include="TestPractice\ReverseString.h" />
     <ClInclude Include="TestPractice\SearchOneBit.h" />
