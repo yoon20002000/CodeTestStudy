@@ -1,14 +1,4 @@
 
-#include "Babbling1/Babbling.h"
-#include "CutString/CutString.h"
-#include "TestPractice/ContinuesChar.h"
-#include "TestPractice/RawATOI.h"
-#include "TestPractice/RawITOA.h"
-#include "TestPractice/ReverseLinkedNode.h"
-#include "TestPractice/ReverseString.h"
-#include "TestPractice/SearchOneBit.h"
-
-
 int main(int argc, char* argv[])
 {
 
@@ -21,6 +11,7 @@ int main(int argc, char* argv[])
     //ReverseLinkedNode linkNode;
     //SearchOneBit onebit(8);
 
-    ContinuesChar tt("aabbccccdddeeff");
+    //ContinuesChar tt("aabbccccdddeeff");
+
     return 0;
 }
