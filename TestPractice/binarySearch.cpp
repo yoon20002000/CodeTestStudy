@@ -9,7 +9,6 @@ int binarySearch::solution(int array[], int size, int value)
     int first = 0;
     int last = size -1;
     int mid = 0 ;
-    int i = 0;
 
     while (first != last)
     {

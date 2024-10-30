@@ -2,6 +2,7 @@
 
 ReverseLinkedNode::ReverseLinkedNode()
 {
+	solution1();
 }
 
 void ReverseLinkedNode::solution()
@@ -14,14 +15,37 @@ void ReverseLinkedNode::solution()
 
 	do 
 	{
-		// ´ÙÀ½ Å½»ö À§Ä¡ ÀúÀå
+		// ï¿½ï¿½ï¿½ï¿½ Å½ï¿½ï¿½ ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½
 		next = cur->NextNode;
-		// ÇöÀç À§Ä¡¸¦ prev·Î º¯°æ
+		// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡ï¿½ï¿½ prevï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		cur->NextNode = prev;
 
-		// ´ÙÀ½ Å½»ö »çÀü ÁØºñ
+		// ï¿½ï¿½ï¿½ï¿½ Å½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Øºï¿½
 		prev = cur;
 		cur = next;
 
 	} while (next);
+}
+
+void ReverseLinkedNode::solution1()
+{
+	Node Nodes[3];
+	for(int i = 0 ; i < 3 ; ++i)
+	{
+		Nodes[i].Data = i;
+		if(i+1 < 3 && i+1>0)
+		{
+			Nodes[i].NextNode = &Nodes[i+1];	
+		}
+	}
+
+	Node* curNode = &Nodes[0];
+	Node* prevNode = nullptr;
+	do 
+	{
+		Node* nextNode = curNode->NextNode;
+		curNode->NextNode = prevNode;
+		prevNode = curNode;
+		curNode = nextNode;
+	}while(curNode != nullptr);
 }

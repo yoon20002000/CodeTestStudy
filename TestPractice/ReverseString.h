@@ -9,4 +9,5 @@ public:
 private:
     string solution(const string& input);
     void solution2(char* input);
+    void solution3(char* str);
 };
