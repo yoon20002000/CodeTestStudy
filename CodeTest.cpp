@@ -1,6 +1,7 @@
 
 #include "Babbling1/Babbling.h"
 #include "CutString/CutString.h"
+#include "TestPractice/ContinuesChar.h"
 #include "TestPractice/RawATOI.h"
 #include "TestPractice/RawITOA.h"
 #include "TestPractice/ReverseLinkedNode.h"
@@ -15,11 +16,11 @@ int main(int argc, char* argv[])
     //ReverseString* tt = new ReverseString();
      /*char input[] = "-3a21";
      RawATOI t(input);*/
-    RawITOA t(-123);
+    //RawITOA t(-123);
     //delete tt;
     //ReverseLinkedNode linkNode;
     //SearchOneBit onebit(8);
 
-    
+    ContinuesChar tt("aabbccccdddeeff");
     return 0;
 }

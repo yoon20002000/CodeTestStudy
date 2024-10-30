@@ -73,7 +73,7 @@ char* RawITOA::solution1(int num)
 
 char* RawITOA::solution2(int integer)
 {
-    bool isNegative = integer < 0 ? true : false;
+    bool isNegative = integer < 0;
 
     if (isNegative)
     {
