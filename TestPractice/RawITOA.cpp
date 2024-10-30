@@ -4,7 +4,7 @@
 
 RawITOA::RawITOA(int num)
 {
-    std::cout<< solution1(num);
+    std::cout<< solution2(num);
 }
 
 char* RawITOA::solution(int num)
@@ -68,5 +68,44 @@ char* RawITOA::solution1(int num)
         result[0] = '-';
     }
 
+    return result;
+}
+
+char* RawITOA::solution2(int integer)
+{
+    bool isNegative = integer < 0 ? true : false;
+
+    if (isNegative)
+    {
+        integer = -integer;
+    }
+
+    int length = 0;
+    int temp = integer;
+    while (temp != 0)
+    {
+        temp /= 10;
+        ++length;
+    }
+    // 0 번은 음수일 경우 고정 즉 시작점 관리하는 index 필요
+    // 끝은 null 고정 그 앞까지 해야됨
+
+    char* result = new char[length + (isNegative == true ? 1 : 0) + 1];
+    result[length + (isNegative ? 1 : 0)] = '\0';
+
+    int index = length + (isNegative ? 1 : 0) - 1;
+
+    for (int i = 0; i < length; ++i)
+    {
+        int num = integer % 10;
+        char numChar = num + '0';
+        integer /= 10;
+        result[index - i] = numChar;
+    }
+
+    if (isNegative == true)
+    {
+        result[0] = '-';
+    }
     return result;
 }
