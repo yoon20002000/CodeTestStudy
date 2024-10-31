@@ -4,5 +4,5 @@
 class Physics : public Subject
 {
 public:
-    
+    void updateEntity(Entity* entity);
 };

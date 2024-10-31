@@ -1,4 +1,7 @@
 
+#include "TestPractice/BubbleSortPrac.h"
+#include "TestPractice/QuickSortPrac.h"
+
 int main(int argc, char* argv[])
 {
 
@@ -13,5 +16,8 @@ int main(int argc, char* argv[])
 
     //ContinuesChar tt("aabbccccdddeeff");
 
+    
+    BubbleSortPrac test;
+    
     return 0;
 }
