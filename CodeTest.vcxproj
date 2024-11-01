@@ -249,6 +249,7 @@
     </ClCompile>
     <ClCompile Include="TestPractice\BubbleSortPrac.cpp" />
     <ClCompile Include="TestPractice\ContinuesChar.cpp" />
+    <ClCompile Include="TestPractice\CustomString.cpp" />
     <ClCompile Include="TestPractice\HashMap.cpp" />
     <ClCompile Include="TestPractice\QuickSortPrac.cpp" />
     <ClCompile Include="TestPractice\RawATOI.cpp" />
@@ -425,6 +426,7 @@
     <ClInclude Include="TestPractice\binarySearch.h" />
     <ClInclude Include="TestPractice\BubbleSortPrac.h" />
     <ClInclude Include="TestPractice\ContinuesChar.h" />
+    <ClInclude Include="TestPractice\CustomString.h" />
     <ClInclude Include="TestPractice\HashMap.h" />
     <ClInclude Include="TestPractice\QuickSortPrac.h" />
     <ClInclude Include="TestPractice\RawATOI.h" />
