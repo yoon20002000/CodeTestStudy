@@ -171,6 +171,8 @@
     <ClCompile Include="PCCE\NeighborColor\NeighborColor.cpp" />
     <ClCompile Include="ShiftString\ShiftString.cpp" />
     <ClCompile Include="SumOfContinues\SumOfContinues.cpp" />
+    <ClCompile Include="TestCodes\SmartPtrTest.cpp" />
+    <ClCompile Include="TestCodes\STLContainer.cpp" />
     <ClCompile Include="TestPractice\binarySearch.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -418,6 +420,8 @@
     <ClInclude Include="PCCE\NeighborColor\NeighborColor.h" />
     <ClInclude Include="ShiftString\ShiftString.h" />
     <ClInclude Include="SumOfContinues\SumOfContinues.h" />
+    <ClInclude Include="TestCodes\SmartPtrTest.h" />
+    <ClInclude Include="TestCodes\STLContainer.h" />
     <ClInclude Include="TestPractice\binarySearch.h" />
     <ClInclude Include="TestPractice\BubbleSortPrac.h" />
     <ClInclude Include="TestPractice\ContinuesChar.h" />

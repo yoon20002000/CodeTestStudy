@@ -1,4 +1,9 @@
 
+#include <iostream>
+#include <memory>
+#include <ostream>
+
+#include "TestCodes/STLContainer.h"
 #include "TestPractice/BubbleSortPrac.h"
 #include "TestPractice/QuickSortPrac.h"
 
@@ -17,7 +22,10 @@ int main(int argc, char* argv[])
     //ContinuesChar tt("aabbccccdddeeff");
 
     
-    BubbleSortPrac test;
+    // BubbleSortPrac test;
+
+    STLContainer test;
+   
     
     return 0;
 }
