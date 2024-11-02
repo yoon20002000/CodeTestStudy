@@ -251,6 +251,7 @@
     <ClCompile Include="TestPractice\ContinuesChar.cpp" />
     <ClCompile Include="TestPractice\CustomString.cpp" />
     <ClCompile Include="TestPractice\HashMap.cpp" />
+    <ClCompile Include="TestPractice\LinkedListPrac.cpp" />
     <ClCompile Include="TestPractice\QuickSortPrac.cpp" />
     <ClCompile Include="TestPractice\RawATOI.cpp" />
     <ClCompile Include="TestPractice\RawITOA.cpp" />
@@ -428,6 +429,7 @@
     <ClInclude Include="TestPractice\ContinuesChar.h" />
     <ClInclude Include="TestPractice\CustomString.h" />
     <ClInclude Include="TestPractice\HashMap.h" />
+    <ClInclude Include="TestPractice\LinkedListPrac.h" />
     <ClInclude Include="TestPractice\QuickSortPrac.h" />
     <ClInclude Include="TestPractice\RawATOI.h" />
     <ClInclude Include="TestPractice\RawITOA.h" />

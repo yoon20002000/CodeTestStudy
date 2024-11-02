@@ -12,7 +12,7 @@ CustomString::CustomString(const char* str)
     length = strlen(str);
     data = new char[length + 1];
     capacity = length;
-    strcpy(data, str);
+    strcpy_s(data, length, str);
 }
 
 CustomString::CustomString(const CustomString& other)
@@ -20,24 +20,24 @@ CustomString::CustomString(const CustomString& other)
     length = other.length;
     data = new char[length + 1];
     capacity = other.capacity;
-    strcpy(data, other.data);
+    strcpy_s(data, length, other.data);
 }
 
 CustomString CustomString::operator+(const CustomString& other) const
 {
     size_t newlength = other.length + length;
     char* newData = new char[newlength + 1];
-    std::strcpy(newData, data);
-    std::strcat(newData, other.data);
+    strcpy_s(newData, newlength, data);
+    strcpy_s(newData, newlength, other.data);
 
-    CustomString newString (newData);
+    CustomString newString(newData);
 
     delete[] newData;
-    
+
     return newString;
 }
 
-CustomString& CustomString::operator=(const CustomString& other) 
+CustomString& CustomString::operator=(const CustomString& other)
 {
     if (this == &other)
     {
@@ -46,18 +46,18 @@ CustomString& CustomString::operator=(const CustomString& other)
 
     delete[] data;
     length = other.length;
-    if(other.capacity > capacity)
+    if (other.capacity > capacity)
     {
         capacity = other.capacity;
-        data = new char[length + 1];    
+        data = new char[length + 1];
     }
-    
-    std::strcpy(data, other.data);
+
+    strcpy_s(data, length, other.data);
 
     return *this;
 }
 
-CustomString& CustomString::operator=(CustomString&& other)
+CustomString& CustomString::operator=(CustomString&& other) noexcept
 {
     if (this == &other)
     {

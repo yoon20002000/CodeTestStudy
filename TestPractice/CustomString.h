@@ -3,7 +3,7 @@
 class CustomString
 {
 private:
-    char* data = '';
+    char* data;
     size_t length;
     size_t capacity;
 public:
