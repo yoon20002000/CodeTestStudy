@@ -12,6 +12,7 @@ class LinkedListPrac
 {
 private:
     LinkNode* head;
+    friend int temp(const LinkedListPrac& linkedList);
 public:
     LinkedListPrac();
     ~LinkedListPrac();

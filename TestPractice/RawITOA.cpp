@@ -4,7 +4,7 @@
 
 RawITOA::RawITOA(int num)
 {
-    std::cout<< solution2(num);
+    solution3(num);
 }
 
 char* RawITOA::solution(int num)
@@ -108,4 +108,85 @@ char* RawITOA::solution2(int integer)
         result[0] = '-';
     }
     return result;
+}
+
+void RawITOA::solution3(int num)
+{
+    bool isNegative = num < 0;
+    if (isNegative)
+    {
+        num =-num;
+    }
+
+    size_t length = 0;
+    int temp = num;
+    while (temp != 0)
+    {
+        ++length;
+        temp /= 10;
+    }
+
+    char* buffer = new char [length + (isNegative ? 1 : 0) + 1];
+    buffer[length + (isNegative ? 1 : 0)] = '\0';
+    if(isNegative)
+    {
+        buffer[0] = '-';
+    }
+
+    int index = length + (isNegative ? 1 : 0) - 1; 
+    while (num!=0)
+    {
+        int tempValue = num %10;
+        char tempChar = tempValue + '0';
+        buffer[index] = tempChar;
+        --index;
+        num /= 10;
+    }
+    std::cout << buffer << std::endl;
+    delete[] buffer;
+}
+
+void RawITOA::solution4(int integer, char* buf, int buf_size, int numberType)
+{
+    if(buf_size == 0)
+    {
+        return;
+    }
+    if(buf == nullptr)
+    {
+        return;
+    }
+    if(numberType == 0)
+    {
+        return;
+    }
+    int length = 0;
+    int temp = integer;
+    while (temp!=0)
+    {
+        ++length;
+        temp/=10;
+    }
+    
+    bool isNegative = integer < 0;
+    if (length + 1 + (isNegative ? 1 : 0) > buf_size)
+    {
+        return ;
+    }
+
+    buf[length + (isNegative ? 1 : 0)] ='\0';
+    if (isNegative)
+    {
+        integer = -integer;
+        buf[0] = '-';
+    }
+    int index = length + (isNegative ? 1 : 0) - 1;
+    while(integer != 0)
+    {
+        int num = integer % 10;
+        char numChar = num + '0';
+        buf[index--] = numChar;
+
+        integer /= 10;
+    }
 }

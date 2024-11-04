@@ -40,16 +40,25 @@ void ReverseString::solution2(char* input)
 	char* startPoint = &input[0];
 	char* endPoint = input + length - 1;
 
-	for (int i = 0; i < length / 2; ++i)
+	// for (int i = 0; i < length / 2; ++i)
+	// {
+	// 	char temp = *startPoint;
+	// 	*startPoint = *endPoint;
+	// 	*endPoint = temp;
+	//
+	// 	++startPoint;
+	// 	--endPoint;
+	// }
+
+	while (startPoint < endPoint)
 	{
 		char temp = *startPoint;
 		*startPoint = *endPoint;
 		*endPoint = temp;
-
 		++startPoint;
 		--endPoint;
 	}
-
+	
 	cout << "After : " << input << endl;
 }
 
