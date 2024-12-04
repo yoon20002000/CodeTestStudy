@@ -3,6 +3,7 @@
 #include <memory>
 #include <ostream>
 
+#include "Programmers/TransportNumber/TransportNumber.h"
 #include "TestCodes/SmartPtrTest.h"
 #include "TestCodes/STLContainer.h"
 #include "TestPractice/BubbleSortPrac.h"
@@ -10,6 +11,7 @@
 #include "TestPractice/LinkedListPrac.h"
 #include "TestPractice/QuickSortPrac.h"
 #include "TestPractice/RawITOA.h"
+#include "TestPractice/ReclusiveSumN.h"
 #include "TestPractice/ReverseString.h"
 
 int main(int argc, char* argv[])
@@ -24,7 +26,7 @@ int main(int argc, char* argv[])
     //ReverseLinkedNode linkNode;
     //SearchOneBit onebit(8);
 
-    ContinuesChar tt("aabbccccdddeeff\0");
+    //ContinuesChar tt("aabbccccdddeeff\0");
 
     
     // BubbleSortPrac test;
@@ -49,6 +51,11 @@ int main(int argc, char* argv[])
     // RawITOA test(1234);
     // char buffer[100];
     // test.solution4(1234,buffer,100,10);
+
+    // ReclusiveSumN N(3);
+
+    TransportNumber temp(10,40,5);
+
     
     return 0;
 }
@@ -57,3 +64,4 @@ int temp(const LinkedListPrac& linkedList)
     linkedList.head;
     return 0;
 }
+

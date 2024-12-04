@@ -24,7 +24,7 @@ int SearchOneBit::solution1(unsigned int number)
 
 	while (number != 0)
 	{
-		if (number & 1U)
+		if ((number & 1U)==true)
 		{
 			++count;
 		}
