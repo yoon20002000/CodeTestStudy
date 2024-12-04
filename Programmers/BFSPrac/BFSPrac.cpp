@@ -9,6 +9,7 @@ using namespace std;
 
 struct node
 {
+    // column, row
     int X = 0, Y = 0;
 
     node(int x, int y) : X(x), Y(y)
@@ -31,18 +32,19 @@ struct nodeHash
 
 int BFSPrac::EscapeMaze()
 {
-    vector<vector<int>> v =
+    vector<vector<int>> maze =
     {
-        {1, 0, 1, 0, 1},
-{1, 1, 1, 0, 1},
-{0, 1, 0, 1, 1},
-{1, 1, 1, 1, 0},
-{0, 0, 0, 1, 1}
+        {1, 0, 0, 0},
+    {1, 1, 0, 1},
+    {0, 1, 1, 1},
+    {1, 1, 1, 1}
     };
 
 
-    int width = v[0].size();
-    int height = v.size();
+    int width = maze[0].size(); 
+    int height = maze.size();
+
+    vector<pair<int, int>> directions = { {-1,0},{1,0} ,{0,-1} ,{0,1} };
 
     queue<pair<node, int>> q;
     q.emplace(node(0, 0), 0);
@@ -62,28 +64,19 @@ int BFSPrac::EscapeMaze()
 
         vector<node> visit;
 
-        if (n.X - 1 >= 0 && v[n.X-1][n.Y] == 1)
+        for (pair<int, int> dir : directions)
         {
-            visit.emplace_back(n.X - 1, n.Y);
-        }
-        if (n.X + 1 < width && v[n.X + 1][n.Y] == 1)
-        {
-            visit.emplace_back(n.X + 1, n.Y);
-        }
-        if (n.Y - 1 >= 0 && v[n.X][n.Y-1] == 1)
-        {
-            visit.emplace_back(n.X, n.Y - 1);
-        }
-        if (n.Y + 1 < height && v[n.X][n.Y + 1] == 1)
-        {
-            visit.emplace_back(n.X, n.Y + 1);
-        }
-        for (node vn : visit)
-        {
-            if (visited.find(vn) == visited.end())
+            node nextNode(n.X + dir.first, n.Y + dir.second);
+
+            if (nextNode.X >= 0 && nextNode.X< width &&
+                nextNode.Y >=0 && nextNode.Y <height &&
+                
+                maze[nextNode.Y][nextNode.X] == 1 &&
+                visited.find(nextNode) == visited.end()
+                )
             {
-                visited.emplace(vn);
-                q.emplace(vn, count + 1);
+                visited.emplace(nextNode);
+                q.emplace(nextNode, count + 1);
             }
         }
     }
