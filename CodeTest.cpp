@@ -3,6 +3,7 @@
 #include <memory>
 #include <ostream>
 
+#include "Programmers/BFSPrac/BFSPrac.h"
 #include "Programmers/TransportNumber/TransportNumber.h"
 #include "TestCodes/SmartPtrTest.h"
 #include "TestCodes/STLContainer.h"
@@ -54,8 +55,9 @@ int main(int argc, char* argv[])
 
     // ReclusiveSumN N(3);
 
-    TransportNumber temp(10,40,5);
-
+    //TransportNumber temp(10,40,5);
+    BFSPrac t;
+    cout << t.EscapeMaze() << endl;
     
     return 0;
 }

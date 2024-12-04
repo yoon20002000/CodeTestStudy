@@ -155,6 +155,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CodeTest.cpp" />
+    <ClCompile Include="Programmers\BFSPrac\BFSPrac.cpp" />
     <ClCompile Include="Programmers\TransportNumber\TransportNumber.cpp" />
     <ClCompile Include="SumOfContinues\SumOfContinues.cpp" />
     <ClCompile Include="TestCodes\SmartPtrTest.cpp" />
@@ -393,6 +394,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Programmers\BFSPrac\BFSPrac.h" />
     <ClInclude Include="Programmers\TransportNumber\TransportNumber.h" />
     <ClInclude Include="SumOfContinues\SumOfContinues.h" />
     <ClInclude Include="TestCodes\SmartPtrTest.h" />
