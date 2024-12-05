@@ -156,7 +156,9 @@
   <ItemGroup>
     <ClCompile Include="CodeTest.cpp" />
     <ClCompile Include="Programmers\BFSPrac\BFSPrac.cpp" />
+    <ClCompile Include="Programmers\Rhombus\Rhombus.cpp" />
     <ClCompile Include="Programmers\TransportNumber\TransportNumber.cpp" />
+    <ClCompile Include="Programmers\TriSnail\TriSnail.cpp" />
     <ClCompile Include="SumOfContinues\SumOfContinues.cpp" />
     <ClCompile Include="TestCodes\SmartPtrTest.cpp" />
     <ClCompile Include="TestCodes\STLContainer.cpp" />
@@ -395,7 +397,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Programmers\BFSPrac\BFSPrac.h" />
+    <ClInclude Include="Programmers\Rhombus\Rhombus.h" />
     <ClInclude Include="Programmers\TransportNumber\TransportNumber.h" />
+    <ClInclude Include="Programmers\TriSnail\TriSnail.h" />
     <ClInclude Include="SumOfContinues\SumOfContinues.h" />
     <ClInclude Include="TestCodes\SmartPtrTest.h" />
     <ClInclude Include="TestCodes\STLContainer.h" />

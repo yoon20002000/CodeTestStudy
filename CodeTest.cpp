@@ -4,7 +4,9 @@
 #include <ostream>
 
 #include "Programmers/BFSPrac/BFSPrac.h"
+#include "Programmers/Rhombus/Rhombus.h"
 #include "Programmers/TransportNumber/TransportNumber.h"
+#include "Programmers/TriSnail/TriSnail.h"
 #include "TestCodes/SmartPtrTest.h"
 #include "TestCodes/STLContainer.h"
 #include "TestPractice/BubbleSortPrac.h"
@@ -56,9 +58,19 @@ int main(int argc, char* argv[])
     // ReclusiveSumN N(3);
 
     //TransportNumber temp(10,40,5);
-    BFSPrac t;
-    cout << t.EscapeMaze() << endl;
-    
+    // TriSnail t;
+    // auto v = t.GetTriSnail(4);
+    //
+    // for (auto vv : v)
+    // {
+    //     cout << vv << " " << endl;
+    // }
+    Rhombus t;
+    auto v = t.solution(3);
+    for (auto vv : v)
+    {
+        cout << vv << " " << endl;
+    }
     return 0;
 }
 int temp(const LinkedListPrac& linkedList)
