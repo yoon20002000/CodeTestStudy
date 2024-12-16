@@ -4,8 +4,10 @@
 #include <ostream>
 
 #include "Programmers/BFSPrac/BFSPrac.h"
+#include "Programmers/NetworksDevide/NetworksDivide.h"
 #include "Programmers/Rhombus/Rhombus.h"
 #include "Programmers/TransportNumber/TransportNumber.h"
+#include "Programmers/TriangleMaxPath/TriangleMaxPath.h"
 #include "Programmers/TriSnail/TriSnail.h"
 #include "TestCodes/SmartPtrTest.h"
 #include "TestCodes/STLContainer.h"
@@ -65,12 +67,12 @@ int main(int argc, char* argv[])
     // {
     //     cout << vv << " " << endl;
     // }
-    Rhombus t;
-    auto v = t.solution(3);
-    for (auto vv : v)
-    {
-        cout << vv << " " << endl;
-    }
+
+    TriangleMaxPath t;
+    int answer = t.solution(
+        {{7}, {3, 8}, {8, 1, 0}, {2, 7, 4, 4}, {4, 5, 2, 6, 5}}
+        );
+    cout << answer;
     return 0;
 }
 int temp(const LinkedListPrac& linkedList)
