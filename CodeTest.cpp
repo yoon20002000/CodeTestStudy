@@ -5,6 +5,7 @@
 
 #include "Programmers/BFSPrac/BFSPrac.h"
 #include "Programmers/NetworksDevide/NetworksDivide.h"
+#include "Programmers/Puddle/Puddle.h"
 #include "Programmers/Rhombus/Rhombus.h"
 #include "Programmers/TransportNumber/TransportNumber.h"
 #include "Programmers/TriangleMaxPath/TriangleMaxPath.h"
@@ -68,11 +69,15 @@ int main(int argc, char* argv[])
     //     cout << vv << " " << endl;
     // }
 
-    TriangleMaxPath t;
-    int answer = t.solution(
-        {{7}, {3, 8}, {8, 1, 0}, {2, 7, 4, 4}, {4, 5, 2, 6, 5}}
-        );
-    cout << answer;
+    // TriangleMaxPath t;
+    // int answer = t.solution(
+    //     {{7}, {3, 8}, {8, 1, 0}, {2, 7, 4, 4}, {4, 5, 2, 6, 5}}
+    //     );
+    // cout << answer;
+
+    Puddle p ;
+    
+    cout <<p.solution(4,3,{{2,2}});
     return 0;
 }
 int temp(const LinkedListPrac& linkedList)
