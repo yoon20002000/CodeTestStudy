@@ -158,6 +158,7 @@
     <ClCompile Include="Programmers\BFSPrac\BFSPrac.cpp" />
     <ClCompile Include="Programmers\NetworksDevide\NetworksDivide.cpp" />
     <ClCompile Include="Programmers\NExpression\NExpression.cpp" />
+    <ClCompile Include="Programmers\Parentheses\Parentheses.cpp" />
     <ClCompile Include="Programmers\Puddle\Puddle.cpp" />
     <ClCompile Include="Programmers\Rhombus\Rhombus.cpp" />
     <ClCompile Include="Programmers\ShareTaxi\ShareTaxi.cpp" />
@@ -404,6 +405,7 @@
     <ClInclude Include="Programmers\BFSPrac\BFSPrac.h" />
     <ClInclude Include="Programmers\NetworksDevide\NetworksDivide.h" />
     <ClInclude Include="Programmers\NExpression\NExpression.h" />
+    <ClInclude Include="Programmers\Parentheses\Parentheses.h" />
     <ClInclude Include="Programmers\Puddle\Puddle.h" />
     <ClInclude Include="Programmers\Rhombus\Rhombus.h" />
     <ClInclude Include="Programmers\ShareTaxi\ShareTaxi.h" />

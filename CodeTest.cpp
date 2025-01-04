@@ -5,6 +5,7 @@
 
 #include "Programmers/BFSPrac/BFSPrac.h"
 #include "Programmers/NetworksDevide/NetworksDivide.h"
+#include "Programmers/Parentheses/Parentheses.h"
 #include "Programmers/Puddle/Puddle.h"
 #include "Programmers/Rhombus/Rhombus.h"
 #include "Programmers/TransportNumber/TransportNumber.h"
@@ -75,9 +76,13 @@ int main(int argc, char* argv[])
     //     );
     // cout << answer;
 
-    Puddle p ;
-    
-    cout <<p.solution(4,3,{{2,2}});
+    // Puddle p ;
+    //
+    // cout <<p.solution(4,3,{{2,2}});
+
+    Parentheses t;
+    t.solution(3);
+
     return 0;
 }
 int temp(const LinkedListPrac& linkedList)
